@@ -6,11 +6,11 @@ const LearnMore = () => {
   return (
     <section className="my-[60px] md:my-[100px]" id="LearnMore">
       <div className="container">
-        <div className="w-full bg-primaryLight p-[40px] rounded-[40px] md:rounded-[75px]">
+        <div className="w-full bg-primaryLight p-[40px] rounded-[40px] lg:rounded-[75px]">
           <div className="flex flex-col md:flex-row">
-            <div className="relative w-[600px]">
+            <div className="relative w-[600px] hidden lg:block">
               <Image
-                className="absolute top-[-130px] hidden md:block"
+                className="absolute top-[-130px] "
                 src={think}
                 alt="Thinking woman"
               />
