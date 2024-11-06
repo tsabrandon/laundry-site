@@ -1,0 +1,56 @@
+.spanNav {
+  top: 6px;
+}
+
+.spanNav,
+.spanNav::before,
+.spanNav::after {
+  content: "";
+  background-color: #21b7e2;
+  width: 17px;
+  height: 2px;
+  position: absolute;
+  transition: all 0.2s ease;
+}
+.spanNav::before {
+  top: 5px;
+}
+
+.spanNav::after {
+  top: 10px;
+}
+
+.checkbox {
+  position: absolute;
+  z-index: 2;
+  opacity: 0;
+  cursor: pointer;
+  height: 19px;
+  width: 19px;
+  top: -8px;
+}
+.ulNavShow {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  text-align: center;
+}
+
+.ulNavShow li {
+  padding: 5px 0;
+}
+
+.checkbox:checked + div span {
+  transform: rotate(35deg);
+  // transform: translate(20px, 0px);
+}
+.checkbox:checked + div span::before {
+  transition: all 0.5s ease;
+  transform: rotate(100deg) translate(-5px, 1px);
+  //   transform: rotate(90deg);
+  // display: none;
+}
+
+.checkbox:checked + div span::after {
+  display: none;
+}
