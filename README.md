@@ -1,6 +1,10 @@
+Project live link: (https://nicelaundry.tsabrandon.com/)
+this project was designed by: Anastasia from figma and built by me using NextJS
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
+
 
 First, run the development server:
 
