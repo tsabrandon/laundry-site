@@ -37,7 +37,7 @@ const ServiceComponent: React.FC<ServiceProps> = ({ data }) => {
           </p>
           <div className="mt-3">
             {packageIncluded.map((included: string) => (
-              <div className="flex gap-1 mb-3">
+              <div className="flex gap-1 mb-3" key={included}>
                 <Image src={checkRound} alt="Check icon" />
                 <p className={`text-[18px] ${inter.className}`}>{included}</p>
               </div>

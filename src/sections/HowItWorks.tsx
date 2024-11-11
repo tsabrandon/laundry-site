@@ -13,7 +13,7 @@ const HowItWorks: React.FC = () => {
         </div>
         <div className="mt-8 flex flex-col justify-center gap-6 md:flex-row items-center md:items-stretch">
             {howItWorksData.map((data) => (
-              <HowItWorksStep step={data.step} process={data.process} imageSrc={data.imageSrc} imageAlt={data.imageAlt} />
+              <HowItWorksStep key={data.step} step={data.step} process={data.process} imageSrc={data.imageSrc} imageAlt={data.imageAlt} />
             ))}
         </div>
       </div>
