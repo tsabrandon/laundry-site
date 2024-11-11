@@ -15,7 +15,10 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   title: "Nice Laundry",
-  description: "Nice laundry website",
+  description: "Laundry today or Naked tomorrow",
+  icons: {
+    icon: "/favicon.png",
+  },
 };
 
 export default function RootLayout({
