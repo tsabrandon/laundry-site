@@ -36,7 +36,7 @@ const Header: React.FC = () => {
                 checked={isCheckedInput}
                 onChange={(e) => setIsCheckInput(e.target.checked)}
               />
-              <div className={`absolute top-[-10px] ${styles.menuContainer}`}>
+              <div className={`absolute top-[-8px] left-[-20px] ${styles.menuContainer}`}>
                 <span className={`${styles.spanNav}`}></span>
               </div>
             </div>

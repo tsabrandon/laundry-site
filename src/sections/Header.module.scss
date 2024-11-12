@@ -7,7 +7,7 @@
 .spanNav::after {
   content: "";
   background-color: #21b7e2;
-  width: 17px;
+  width: 20px;
   height: 2px;
   position: absolute;
   transition: all 0.2s ease;
@@ -25,9 +25,10 @@
   z-index: 2;
   opacity: 0;
   cursor: pointer;
-  height: 19px;
-  width: 19px;
-  top: -8px;
+  height: 21px;
+  width: 21px;
+  top: -6px;
+  left: -20px;
 }
 .ulNavShow {
   display: flex;
